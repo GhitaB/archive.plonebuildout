@@ -1,0 +1,6 @@
+# archive.plonebuildout
+Archive - plone buildout
+
+To be used as personal archive and playground.
+
+Uses [eea.plonebuildout](https://github.com/eea/eea.plonebuildout.core).
