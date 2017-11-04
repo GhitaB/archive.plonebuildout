@@ -60,3 +60,11 @@ http://localhost:8001/@@plone-addsite
 id: archive
 Title: Archive
 Language: English
+
+/archive/@@usergroup-userprefs
+Add New User
+  Ghita Bizau
+  ghitab
+  ghita_bizau@yahoo.com
+  ******
+Checked Site Administrator, Manager
