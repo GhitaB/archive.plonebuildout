@@ -47,3 +47,9 @@ var/
 $ ./bin/www1 stop
 $ ./bin/www-async stop
 $ ./bin/www1 fg
+
+http://localhost:8001/manage_main
+user: admin
+password: admin
+Change password:
+http://localhost:8001/acl_users/manage_users?name=admin&submit=Edit
