@@ -7,10 +7,12 @@ $ ls
 buildout.cfg  deployment.cfg  development.cfg  docs  install.sh
 jenkins.cfgLICENSE  notes.txt  README.md  README.rst  README.txt
 reset_buildout.sh  versions.cfg
+
 $ ./install.sh
 =========================================================================
 INFO:  All set. Now you can run ./bin/buildout -c development.cfg
 =========================================================================
+
 Added .gitignore containing:
 bin/
 bootstrap.sh
@@ -19,3 +21,16 @@ include/
 lib/
 local/
 pip-selfcheck.json
+
+$ ./bin/buildout -c development.cfg
+
+Update .gitignore adding:
+.current_revision
+.installed.cfg
+.mr.developer.cfg
+develop-eggs/
+eggs/
+parts/
+src/
+updates.sh
+updates.sh.tmp

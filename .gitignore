@@ -5,3 +5,12 @@ include/
 lib/
 local/
 pip-selfcheck.json
+.current_revision
+.installed.cfg
+.mr.developer.cfg
+develop-eggs/
+eggs/
+parts/
+src/
+updates.sh
+updates.sh.tmp
