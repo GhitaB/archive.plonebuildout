@@ -1,0 +1,7 @@
+bin/
+bootstrap.sh
+get-pip.py
+include/
+lib/
+local/
+pip-selfcheck.json

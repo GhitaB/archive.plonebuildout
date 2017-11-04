@@ -7,3 +7,15 @@ $ ls
 buildout.cfg  deployment.cfg  development.cfg  docs  install.sh
 jenkins.cfgLICENSE  notes.txt  README.md  README.rst  README.txt
 reset_buildout.sh  versions.cfg
+$ ./install.sh
+=========================================================================
+INFO:  All set. Now you can run ./bin/buildout -c development.cfg
+=========================================================================
+Added .gitignore containing:
+bin/
+bootstrap.sh
+get-pip.py
+include/
+lib/
+local/
+pip-selfcheck.json
