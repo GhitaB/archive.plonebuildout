@@ -14,3 +14,4 @@ parts/
 src/
 updates.sh
 updates.sh.tmp
+var/

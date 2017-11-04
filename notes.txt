@@ -34,3 +34,16 @@ parts/
 src/
 updates.sh
 updates.sh.tmp
+
+$ ./bin/zeoserver start
+$ ./bin/www1 start
+$ ./bin/www-async start
+
+http://localhost:8001/ - up and running
+
+Update .gitignore adding:
+var/
+
+$ ./bin/www1 stop
+$ ./bin/www-async stop
+$ ./bin/www1 fg
