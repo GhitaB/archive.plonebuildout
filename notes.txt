@@ -1,1 +1,9 @@
-Something
+https://github.com/eea/eea.plonebuildout.core#id10
+$ git clone https://github.com/eea/eea.plonebuildout.example.git zzzz
+$ rm -rf ./zzzz/.git
+$ mv ./zzzz/* archive.plonebuildout/
+$ cd archive.plonebuildout/
+$ ls
+buildout.cfg  deployment.cfg  development.cfg  docs  install.sh
+jenkins.cfgLICENSE  notes.txt  README.md  README.rst  README.txt
+reset_buildout.sh  versions.cfg
