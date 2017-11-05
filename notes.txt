@@ -68,3 +68,6 @@ Add New User
   ghita_bizau@yahoo.com
   ******
 Checked Site Administrator, Manager
+
+http://localhost:8001/archive/prefs_install_products_form
+Activate: dexterity, archive.content
