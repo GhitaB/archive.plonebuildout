@@ -74,3 +74,7 @@ Activate: dexterity, archive.content, archive.theme
 
 http://localhost:8001/archive/portal_skins/manage_skinLayers
 In Sunburst Theme add archive_theme layer under custom.
+
+Archive listing for folders:
+/archive/portal_types/Folder/manage_propertiesForm
+Add archive_listing for Available view methods and Save changes.
