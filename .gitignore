@@ -1,5 +1,4 @@
 bin/
-bootstrap.sh
 get-pip.py
 include/
 lib/
