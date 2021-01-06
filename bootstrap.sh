@@ -77,33 +77,14 @@ fi
 info "Using Python: "
 $($PYTHON --version)
 
-if [ -z "$VIRTUALENV" ]; then
-    VIRTUALENV="/usr/bin/env virtualenv2"
-fi
+info "Create venv"
+virtualenv -p2 venv
 
-info "Using virtualenv $VIRTUALENV"
-
-
-info "Adding eggs directory"
-mkdir -vp eggs
-
-if [ -s "bin/activate" ]; then
-
-  warn "Already a virtualenv environment."
-  warn "Please remove bin/activate if you want to reinitialize it."
-
-else
-
-  info "Running: $VIRTUALENV --clear ."
-  $VIRTUALENV --clear .
-
-  info "Running: bin/pip install pip==$PIP setuptools==$SETUPTOOLS zc.buildout==$ZCBUILDOUT wheel==$WHEEL"
-  ./bin/pip install pip==$PIP setuptools==$SETUPTOOLS zc.buildout==$ZCBUILDOUT wheel==$WHEEL
-
-fi
+info "Running: venv/bin/pip install pip==$PIP setuptools==$SETUPTOOLS zc.buildout==$ZCBUILDOUT wheel==$WHEEL"
+./venv/bin/pip install pip==$PIP setuptools==$SETUPTOOLS zc.buildout==$ZCBUILDOUT wheel==$WHEEL
 
 echo ""
 echo "========================================================================="
-info "All set. Now you can run ./bin/buildout -c $CONFIG"
+info "All set. Now you can run ./venv/bin/buildout -c $CONFIG"
 echo "========================================================================="
 echo ""
